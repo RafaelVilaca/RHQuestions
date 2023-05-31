@@ -100,7 +100,7 @@ function App() {
                   width="300"
                   height="300"
                   href="/home" />
-                <p>RH Questions</p>
+                <p>RH Vision</p>
               </Typography>
               <Avatar sx={{ m: 1, bgcolor: 'secondary.main' }}>
                 <LockOutlinedIcon />
