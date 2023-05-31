@@ -1,16 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Form from 'react-bootstrap/Form'
-import Table from 'react-bootstrap/Table';
 import Button from 'react-bootstrap/Button';
 import { react_constants } from '../../components/constants';
 import { useNavigate, useParams } from 'react-router-dom';
-import { SnackBarAlert } from '../../components/snackBarAlert';
-import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import ButtonGroup from 'react-bootstrap/ButtonGroup';
-import ThumbUpAltTwoToneIcon from '@mui/icons-material/ThumbUpAltTwoTone';
-import ThumbDownAltTwoToneIcon from '@mui/icons-material/ThumbDownAltTwoTone';
-import { ConfirmationDialog } from '../../components/ConfirmationDialog';
-import { messages } from '../../components/messagesEnum';
 import ClearIcon from '@mui/icons-material/Clear';
 import DoneIcon from '@mui/icons-material/Done';
 import Card from '@mui/material/Card';
