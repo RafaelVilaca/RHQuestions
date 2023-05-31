@@ -1,0 +1,7 @@
+nav .navbar-nav a:hover {
+    color: steelblue !important;
+}
+
+nav {
+    background-image: linear-gradient(gray, lightgray, white);
+}

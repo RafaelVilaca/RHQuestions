@@ -1,0 +1,36 @@
+form {
+    margin-top: 110px !important;
+    width: 80%;
+    margin: 30px auto;
+}
+
+img {
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+p {
+    font-family: Helvetica;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+h1 {
+    font-family: Helvetica;
+    color: black;
+    -webkit-text-stroke-width: 0.7px;
+}
+
+/* media queries */
+@media only screen and (max-width: 767px) {
+    form {
+        margin-top: 110px !important;
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    img {
+        border-radius: 0px;
+    }
+}
